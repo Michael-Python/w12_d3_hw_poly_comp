@@ -7,8 +7,10 @@ What does it mean when we apply polymorphism to OO design? Give a simple Java ex
 	Polymorphism allows different objects to be acted on with the same method. The interface decides what gets implemented by a class, the class decides how it gets implemented: you might have a dog and cat class; 
 the dog and cat can both 'talk', this method would be written in the interface - String talk();
 how the dog and cat would be implemented in their respective classes 
+	```Java
 	dog - public String talk(){ return "Woof!";
 	cat - public String talk(){ return "Meow!";
+	```
 
 What can we use to implement polymorphism in Java?
 	 An interface is used to be the change.
